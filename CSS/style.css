@@ -1,0 +1,36 @@
+.row {
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+}
+.colum1 {
+    font-size: 5vw;
+    text-align: center;
+    flex-direction: column;
+    width: 20vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1vh;
+}
+.colum1:hover {
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 30%);
+}
+.top1 {
+    color: white;
+    font-weight: 700;
+    justify-content: center;
+    background: darkcyan;
+}
+
+.middle1 {
+    height: 30vh;
+    justify-content: center;
+    padding: 2vh;
+}
+
+.down1 {
+    height: 10vh;
+    justify-content: center;
+    text-align: center;
+}
