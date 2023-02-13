@@ -1,0 +1,11 @@
+.block {
+    border:0.5vh solid black;
+    width: 40vh;
+    text-align: center;
+    padding: 1vh;
+}
+.block:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: red;
+    cursor: pointer;
+}
