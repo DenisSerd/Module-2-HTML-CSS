@@ -1,0 +1,163 @@
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+H1 {
+  color: blue;
+  text-align: center;
+  font-weight: 700;
+  font-size: 4.5rem;
+  margin: 40px 0 0;
+}
+
+H2 {
+  font-family: "Roboto Light", sans-serif;
+  font-size: 20px;
+}
+
+.imgIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.circle {
+  height: 700px;
+  width: 700px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 50%;
+  margin: 40px auto 0;
+  overflow: hidden;
+  object-fit: cover;
+
+  vertical-align: middle;
+  box-sizing: border-box;
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  margin-top: -125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+}
+
+.blockInfo {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 10px;
+  padding: 8px;
+  width: 200px;
+  height: 270px;
+}
+
+.p {
+  line-height: 1.6;
+  font-family: OpenSymbol, sans-serif;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+}
+
+.beforeFooter {
+  font-size: 0.875rem;
+  margin: 50px auto 50px auto;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.footer {
+  font-size: 0.875rem;
+  text-align: center;
+  color: white;
+  width: 100vw;
+  height: 210px;
+  background-color: #414141;
+  padding-top: 20px;
+  padding-down: 20px;
+
+}
+
+.footerUp {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100px;
+}
+
+.footerDown {
+  line-height: 1.6;
+  width: 100vw;
+  height: 100px;
+}
+
+.inThreeString {
+  width: 420px;
+  height: 70px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.lincFreepik {
+  padding-bottom: 5px;
+  text-decoration: none;
+  border-bottom: solid 1px #0075B2;
+}
+
+.lincFreepik:hover {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+@media screen and (max-width: 730px) {
+  .table {
+    width: 500px;
+    margin-top: -90px;
+  }
+
+  .circle {
+    height: 490px;
+    width: 490px;
+  }
+
+  H1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .table {
+    width: 300px;
+    margin-top: -50px;
+  }
+
+  .circle {
+    height: 280px;
+    width: 280px;
+  }
+
+  H1 {
+    font-size: 2rem;
+  }
+}
