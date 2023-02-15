@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+}
+main{
+
+}
+.mainUp {
+  background-color: #292d33;
+  height: 500px;
+}
+.mainDown {
+  height: 200px;
+}
+.table {
+  display: flex;
+}
+.firstBlock {
+  display: flex;
+  width: 530px;
+  height: 570px;
+  box-sizing: border-box;
+  object-fit: cover;
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+
+
+
+}
+.bigPicture{
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+  height: auto
+
+}
+.secondBlock {
+  display: flex;
+  flex-direction: column;
+
+}
+.textBlock {
+
+}
+.imagesBlock{
+  display: flex;
+
+
+}
+.firstImagesBlock {
+  display: flex;
+  width: 210px;
+  height: 220px;
+  box-sizing: border-box;
+  object-fit: cover;
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+  justify-content: center;
+}
+.secondImagesBlock {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  text-align: center;
+  color: white;
+  width: 100vw;
+  height: 210px;
+  background-color: #333333;
+  padding-top: 20px;
+  padding-down: 20px;
+}
+
+.footerUp {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 100px;
+}
+
+.lincFooterDown {
+  color: #1a5ed7;
+}
+
+.lincFooterDown:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.footerDown {
+  font-size: 12px;
+  line-height: 1.6;
+  width: 100vw;
+  height: 100px;
+}
