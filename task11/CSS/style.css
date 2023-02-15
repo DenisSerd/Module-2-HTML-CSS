@@ -1,92 +1,128 @@
 body {
   margin: 0;
 }
-main{
+
+/*TEXT*/
+H1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin: -30px 0 0 0;
+  color: #f1c50e;
+  word-wrap: break-word;
+  font-family: "Roboto", sans-serif;
+  width: 435px;
+  line-height: 1.1;
 
 }
+
+main {
+
+}
+
 .mainUp {
   background-color: #292d33;
   height: 500px;
 }
+
 .mainDown {
   height: 200px;
+  display: flex;
+  justify-content: center;
 }
+
 .table {
   display: flex;
+  margin: -400px 0 0 0;
 }
+
 .firstBlock {
+
+  width: 500px;
+  height: 500px;
+  margin: 20px;
   display: flex;
-  width: 530px;
-  height: 570px;
-  box-sizing: border-box;
-  object-fit: cover;
-  overflow-clip-margin: content-box;
-  overflow: hidden;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  position: relative;
-
+  box-sizing: border-box;
 
 
 }
-.bigPicture{
-  display: flex;
+
+.bigPicture {
+  min-height: 566px;
+  width: 533px;
   object-fit: cover;
-  width: 100%;
-  height: auto
-
+  overflow-clip-margin: content-box;
 }
+
 .secondBlock {
-  display: flex;
-  flex-direction: column;
+  margin: 20px;
 
 }
-.textBlock {
 
+.textItalic {
+  color: white;
+  word-wrap: break-word;
+  position: relative;
+  width: 418px;
+  margin: 20px 0 0;
 }
-.imagesBlock{
-  display: flex;
 
-
-}
+.secondImagesBlock,
 .firstImagesBlock {
   display: flex;
   width: 210px;
-  height: 220px;
+  height: 225px;
+  overflow: hidden;
+  position: relative;
+  margin: 20px 20px 20px 5px;
+
+}
+
+.miniPicture {
+  height: 100%;
+  width: 210px;
   box-sizing: border-box;
   object-fit: cover;
-  overflow-clip-margin: content-box;
-  overflow: hidden;
-  justify-content: center;
 }
+
+.textBlock {
+
+}
+
+.textItalic {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  width: 418px;
+}
+
+.stringFreepik {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+
+}
+
+.linkFreepik {
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: white;
+  border-bottom: solid 1px white;
+}
+
+.linkFreepik:hover {
+  color: #dfdfdf;
+}
+
+.imagesBlock {
+  display: flex;
+  margin-top: 60px;
+
+
+}
+
 .secondImagesBlock {
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .footer {
@@ -113,7 +149,9 @@ main{
 }
 
 .lincFooterDown {
-  color: #1a5ed7;
+  color: #adcce9;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
 }
 
 .lincFooterDown:hover {
@@ -121,9 +159,47 @@ main{
   text-decoration: none;
 }
 
+.inTwoString {
+  width: 417px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+
+}
+
 .footerDown {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.6;
   width: 100vw;
   height: 100px;
+}
+
+@media screen and (max-width:1200px){
+  .bigPicture {
+    min-height: 536px;
+    width: 503px;
+  }
+  .secondImagesBlock,
+  .firstImagesBlock {
+    width: 188px;
+    height: 202px;
+  }
+  .table {
+  }
+
+
+}
+
+@media screen and (max-width:992px){
+}
+
+@media screen and (max-width:1200px){
+
+}
+
+@media screen and (max-width:768px){
+
+}
+
+@media screen and (max-width:575px){
+
 }
