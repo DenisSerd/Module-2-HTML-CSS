@@ -1,0 +1,75 @@
+body {
+  background-color: #132a57;
+  display: flex;
+  justify-content: center;
+}
+.lineWithThree {
+  display: inline-flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  width:780px;
+  box-shadow: 4px 10px 10px 0px black;
+}
+.vl {display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid;
+  border-color: #c5c5c5;
+  height: 150px;
+}
+.oneBlock {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  text-align: center;
+  width: 260px;
+  justify-content: center;
+  align-items: center;
+}
+.firstBlock {
+  border-radius: 5px 0px 0px 5px;
+}
+.lastBlock {
+  border-radius: 0px 5px 5px 0px;
+}
+.iconBlock {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.nameBlock {
+  font-family: sans-serif;
+
+  font-weight: bold;
+  font-size: 1.2em;
+  background-color: white;
+  color: #ff5635;
+  white-space: nowrap;
+}
+.priceBlock {
+
+  font-size: 1.2em;
+  background-color: white;
+}
+.downBlock {
+  border-radius: 0px 0px 5px 5px;
+  width: 100px;
+}
+.button {
+  font-family: sans-serif;
+  background-color: #ff5635;
+  color: white;
+  margin: 5px 0 0 0;
+  padding: 5px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+img {
+  height:70px;
+  width:70px;
+}
