@@ -1,0 +1,223 @@
+body {
+  height: 100%;
+  margin: 0px;
+  background-color: #e5e5e5;
+}
+
+H1 {
+  color: #f12c0e;
+  text-align: center;
+  font-size: 3.75rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+H3 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+  margin: 20px 0 20px 0;
+}
+
+H5 {
+  color: #f12c0e;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+header {
+
+}
+
+.slogan {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  width: 793px;
+  margin: 20px auto 10px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  margin: 10px 10px 10px 10px;
+  padding: 30px 0px 30px 30px;
+}
+
+.imgPizza {
+  display: flex;
+  box-sizing: border-box;
+  object-fit: cover;
+  height: 250px;
+  width: 250px;
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.pizzaPicture {
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.descriptionContainer {
+  padding: 0px 20px 20px 20px;
+}
+
+.compound {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  width: 220px;
+}
+
+.buttonAdd {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: lightgray;
+  padding: 10px 32px;
+}
+
+.buttonAdd:hover {
+  background-color: grey;
+}
+
+.beforeFooter {
+  text-align: center;
+}
+
+.lincFreepik {
+  text-decoration: none;
+  color: #f05510;
+}
+
+.lincFreepik:hover {
+  color: #9a5b00;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  text-align: center;
+  color: white;
+  width: 100vw;
+  height: 210px;
+  background-color: #414141;
+  padding-top: 20px;
+  padding-down: 20px;
+}
+
+.footerUp {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 100px;
+}
+
+.lincFooterDown {
+  color: #f9b99c;
+}
+
+.lincFooterDown:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.footerDown {
+  font-size: 12px;
+  line-height: 1.6;
+  width: 100vw;
+  height: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  .imgPizza {
+    width: 115px;
+  }
+}
+
+@media screen and (max-width: 867px) {
+  .imgPizza {
+    width: 290px;
+  }
+
+  .compound {
+    width: 290px;
+    margin-left: 20px;
+  }
+
+  .slogan {
+    width: 670px;
+  }
+
+  .footerUp {
+    width: 670px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .imgPizza {
+    width: 200px;
+  }
+
+  .compound {
+    width: 220px;
+    margin-left: 0px;
+  }
+
+  .slogan {
+    width: 490px;
+  }
+
+  .footerUp {
+    width: 490px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .imgPizza {
+    width: 290px;
+    height: 200px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .slogan {
+    width: 330px;
+  }
+
+  .container {
+    padding: 20px 20px 20px 20px;
+  }
+
+  .footerUp {
+    width: 300px;
+  }
+}
