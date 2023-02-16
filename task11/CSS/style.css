@@ -1,0 +1,450 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+H1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin: -30px 0 0 0;
+  color: #f1c50e;
+  word-wrap: break-word;
+  font-family: "Roboto", sans-serif;
+  width: 435px;
+  line-height: 1.1;
+}
+
+.mainUp {
+  background-color: #292d33;
+  height: 500px;
+}
+
+.mainDown {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  display: flex;
+  margin: -400px 0 0 0;
+}
+
+.firstBlock {
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.bigPicture {
+  min-height: 566px;
+  width: 533px;
+  object-fit: cover;
+  overflow-clip-margin: content-box;
+}
+
+.secondBlock {
+  margin: 20px;
+}
+
+.textItalic {
+  color: white;
+  word-wrap: break-word;
+  position: relative;
+  width: 418px;
+  margin: 20px 0 0;
+}
+
+.secondImagesBlock,
+.firstImagesBlock {
+  display: flex;
+  width: 210px;
+  height: 225px;
+  overflow: hidden;
+  position: relative;
+  margin: 20px 20px 20px 5px;
+}
+
+.miniPicture {
+  height: 100%;
+  width: 210px;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+.textItalic {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  width: 418px;
+}
+
+.stringFreepik {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+
+}
+
+.linkFreepik {
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: white;
+  border-bottom: solid 1px white;
+}
+
+.linkFreepik:hover {
+  color: #dfdfdf;
+}
+
+.imagesBlock {
+  display: flex;
+  margin-top: 60px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  text-align: center;
+  color: white;
+  width: 100vw;
+  height: 210px;
+  background-color: #333333;
+  padding-top: 20px;
+}
+
+.footerUp {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 100px;
+}
+
+.lincFooterDown {
+  color: #adcce9;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+}
+
+.lincFooterDown:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.inTwoString {
+  width: 417px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.footerDown {
+  line-height: 1.6;
+  width: 100vw;
+  height: 100px;
+}
+
+@media screen and (max-width: 1100px) {
+  .bigPicture {
+    min-height: 536px;
+    width: 503px;
+  }
+
+  .secondImagesBlock,
+  .firstImagesBlock {
+    width: 188px;
+    height: 202px;
+  }
+
+  H1 {
+    width: 380px;
+    margin-top: -20px;
+  }
+
+  .imagesBlock {
+    margin-top: 59px;
+  }
+
+  .textItalic {
+    width: 380px;
+  }
+
+  .secondBlock {
+    margin-left: 0px;
+  }
+
+  .mainDown {
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .table {
+    flex-direction: column;
+  }
+
+  .mainUp {
+    height: 1200px;
+  }
+
+  .table {
+    margin-top: -1170px;
+  }
+
+  .bigPicture {
+    min-height: 758px;
+    width: 720px;
+  }
+
+  H1 {
+    margin-top: 10px;
+    margin-left: 28px;
+    width: 750px;
+    font-size: 55px;
+  }
+
+  .firstBlock {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .secondBlock {
+    margin: 35px;
+  }
+
+  .textItalic {
+    margin-left: 28px;
+    width: 700px;
+  }
+
+  .stringFreepik {
+    margin-left: 28px;
+  }
+
+  .imagesBlock {
+    display: flex;
+    justify-content: center;
+  }
+
+  .secondImagesBlock,
+  .firstImagesBlock {
+    width: 345px;
+    height: 365px;
+  }
+
+  .miniPicture {
+    height: 100%;
+    width: 345px;
+  }
+
+  .imagesBlock {
+    margin-top: 30px;
+  }
+
+  .mainDown {
+    height: 270px;
+  }
+
+  .inTwoString {
+    margin-top: 20px;
+  }
+
+  .footerDown {
+    margin-top: 75px;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .imagesBlock {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bigPicture {
+    min-height: 561px;
+    width: 540px;
+  }
+
+  H1 {
+    width: 530px;
+    word-wrap: break-word;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 8px;
+  }
+
+  .textItalic {
+    width: 530px;
+    margin-left: 8px;
+  }
+
+  .stringFreepik {
+    width: 530px;
+    margin-bottom: 0;
+    margin-left: 8px;
+  }
+
+  .secondImagesBlock,
+  .firstImagesBlock {
+    width: 540px;
+    height: 563px;
+  }
+
+  .miniPicture {
+    height: 100%;
+    width: 540px;
+  }
+
+  .textBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .mainDown {
+    height: 1000px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .bigPicture {
+    min-height: 342px;
+    width: 340px;
+  }
+
+  H1 {
+    width: 330px;
+    word-wrap: break-word;
+    position: relative;
+    margin-top: 150px;
+    margin-left: 0px;
+    font-size: 36px;
+  }
+
+  .textItalic {
+    width: 330px;
+    margin-left: 0px;
+  }
+
+  .stringFreepik {
+    width: 530px;
+    margin-bottom: 0;
+    margin-left: 0px;
+  }
+
+  .imagesBlock {
+
+    margin-left: 15px;
+
+  }
+
+  .secondImagesBlock,
+  .firstImagesBlock {
+    width: 340px;
+    height: 343px;
+  }
+
+  .miniPicture {
+    height: 100%;
+    width: 340px;
+  }
+
+  .textBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .mainDown {
+    height: 620px;
+  }
+
+  .mainUp {
+    height: 845px;
+  }
+
+  .table {
+    margin-top: -610px;
+  }
+
+  .firstBlock {
+    height: 0;
+  }
+
+  .secondBlock {
+    width: 340px;
+  }
+
+  .inTwoString {
+    width: 340px;
+    display: block;
+    box-sizing: border-box;
+    object-fit: cover;
+  }
+
+  .downString {
+
+    text-align: center;
+  }
+
+  footer {
+  }
+
+  .footerUp {
+
+  }
+
+  .nowrap {
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footerLinc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  footer {
+    justify-content: unset;
+    height: 500px;
+  }
+
+  .footerDown {
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (max-width: 290px) {
+  .footerLinc2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .footerDown {
+    margin-top: -40px;
+  }
+
+  .inTwoString {
+    margin-top: 0px;
+  }
+
+  footer {
+    padding: 0;
+    margin-top: 20px;
+  }
+}
