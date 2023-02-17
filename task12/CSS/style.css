@@ -1,0 +1,326 @@
+body {
+   margin: 0;
+  padding: 0;
+  font-family: 'Open Sans',sans-serif;
+  overflow-x: hidden;
+}
+.backgroundBlock {
+  background-image:url("https://images02.nicepage.io/c461c07a441a5d220e8feb1a/8fb7905f714e55319fed378c/asd-min.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  display: block;
+  vertical-align: middle;
+  background-size: cover;
+  width: 100%;
+  height: 885px;
+  overflow: hidden;
+}
+main{
+  display: flex;
+  width: 100vw;
+}
+.table {
+  display: flex;
+  justify-content: center;
+  margin-top: 400px;
+}
+.block1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  width: 299px;
+  height: 304px;
+  padding: 30px;
+  margin-right: 30px;
+  background-color: #292d33;
+}
+.block3 {
+  margin-right: 0;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+}
+
+H4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 20px 0 0;
+  font-size: 20px;
+}
+.textBlock {
+  line-height: 1.6;
+  margin: 30px 0 0;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+
+.button {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  border-width:2px;
+  border-style: solid;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 20px 0 0;
+  border-color: #fda820;
+  padding: 10px 30px;
+  align-self: flex-start;
+}
+.stringFreepik {
+  text-align: center;
+  margin:  50px 0 50px;
+  color: #111111;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.linkFreepik {
+  color:#111111;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  text-align: center;
+  color: white;
+  width: 100vw;
+  height: 210px;
+  background-color: #333333;
+  padding-top: 20px;
+}
+
+.footerUp {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 100px;
+
+}
+
+.lincFooterDown {
+  color: #adcce9;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+}
+
+.lincFooterDown:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.inTwoString {
+  width: 417px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.footerDown {
+  line-height: 1.6;
+  width: 100vw;
+  height: 100px;
+  font-size: 0.8rem;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .block1 {
+    width: 233px;
+    height: 332px;
+  }
+
+  .stringFreepik {
+    margin: 35px 0 50px;
+}
+@media screen and (max-width: 992px){
+  .block1 {
+    width: 285px;
+    height: 306px;
+  }
+  .tableUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .table {
+    margin-top: 272px;
+    flex-wrap: wrap;
+    width: 720px;
+    justify-content: flex-start;
+  }
+  .block3 {
+    margin-top: 30px;
+  }
+  .block2 {
+    margin-right: 0;
+  }
+
+  .backgroundBlock {
+    height: 1151px;
+  }
+  .stringFreepik {
+    margin-top: 45px;
+  }
+}
+}
+
+
+@media screen and (max-width: 767px) {
+  .block1 {
+    width: 215px;
+    height: 332px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .table {
+    width: 540px;
+  }
+  .backgroundBlock {
+    height: 1202px;
+    background-position: 62.31% 50%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .block1 {
+    width: 290px;
+    height: 281px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .table {
+    margin-top: 255px;
+    width: 340px;
+  }
+  .backgroundBlock {
+    height: 1471px;
+  }
+  .stringFreepik {
+    margin-top: 0px;
+    white-space: nowrap;
+  }
+
+  .footerUp {
+    width: 340px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+@media screen and (max-width: 400px) {
+  .footerLinc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  footer {
+    justify-content: unset;
+    height: 500px;
+  }
+
+  .footerDown {
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (max-width: 290px) {
+  .footerLinc2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .footerDown {
+    margin-top: -40px;
+  }
+
+  .inTwoString {
+    margin-top: 0px;
+  }
+
+  footer {
+    padding: 0;
+  }
+}
