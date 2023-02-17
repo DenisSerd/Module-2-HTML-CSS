@@ -5,7 +5,7 @@ body {
   overflow-x: hidden;
 }
 .backgroundBlock {
-  background-image:url("//images02.nicepage.io/c461c07a441a5d220e8feb1a/8fb7905f714e55319fed378c/asd-min.jpg");
+  background-image:url("https://images02.nicepage.io/c461c07a441a5d220e8feb1a/8fb7905f714e55319fed378c/asd-min.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   object-fit: cover;
